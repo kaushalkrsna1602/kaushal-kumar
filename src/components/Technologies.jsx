@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaNodeJs } from 'react-icons/fa6'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
-import { SiExpress, SiMongodb } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiTypescript  } from 'react-icons/si'
 import { TbBrandJavascript } from 'react-icons/tb'
 import { animate, easeIn, motion } from 'framer-motion'
 
@@ -73,6 +73,13 @@ const Technologies = () => {
                 variants={iconVariants(4)}
                 className='p-4'>
                 <RiTailwindCssFill className='text-7xl text-[#36BCF8]' />
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(4)}
+                className='p-4'>
+                <SiTypescript className='text-7xl text-[#3178C6]' />
             </motion.div>
         </motion.div>
     </div>
