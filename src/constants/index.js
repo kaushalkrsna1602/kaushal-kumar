@@ -2,7 +2,7 @@ import project1 from "../assets/projects/loquax.svg";
 import project2 from "../assets/projects/BiteRush.svg";
 import project3 from "../assets/logo.png";
 import project4 from "../assets/projects/chat-bot.png";
-import project5 from "../assets/projects/project5.png"
+import project5 from "../assets/projects/project5.PNG";
 
 export const HERO_CONTENT = `I am a Full-Stack Developer passionate about crafting seamless, high-performance web applications. With expertise in React, Redux, Node.js, Express, MongoDB, and JavaScript, I specialize in building intuitive user interfaces and robust backend systems. Whether it's developing scalable applications, integrating APIs, or optimizing performance, I thrive on solving complex challenges with clean, efficient code.`;
 
