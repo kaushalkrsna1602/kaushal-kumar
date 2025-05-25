@@ -4,7 +4,8 @@ import project3 from "../assets/logo.png";
 import project4 from "../assets/projects/chat-bot.png";
 import project5 from "../assets/projects/project5.PNG";
 
-export const HERO_CONTENT = `I am a Full-Stack Developer passionate about crafting seamless, high-performance web applications. With expertise in React, Redux, Node.js, Express, MongoDB, and JavaScript, I specialize in building intuitive user interfaces and robust backend systems. Whether it's developing scalable applications, integrating APIs, or optimizing performance, I thrive on solving complex challenges with clean, efficient code.`;
+export const HERO_CONTENT = `I’m a Full-Stack Developer focused on building high-performance, scalable web applications. With hands-on experience in React, Redux, Next.js, Node.js, Express, MongoDB, JavaScript, and TypeScript. I also work with AI tools like the Gemini API and LangChain to build intelligent, user-focused features.I thrive on solving real-world problems with clean, efficient code.
+Known for taking ownership and getting things done—thrives on building and learning through doing.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
