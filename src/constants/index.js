@@ -2,6 +2,7 @@ import project1 from "../assets/projects/loquax.svg";
 import project2 from "../assets/projects/BiteRush.svg";
 import project3 from "../assets/logo.png";
 import project4 from "../assets/projects/chat-bot.png";
+import project5 from "../assets/projects/project5.png"
 
 export const HERO_CONTENT = `I am a Full-Stack Developer passionate about crafting seamless, high-performance web applications. With expertise in React, Redux, Node.js, Express, MongoDB, and JavaScript, I specialize in building intuitive user interfaces and robust backend systems. Whether it's developing scalable applications, integrating APIs, or optimizing performance, I thrive on solving complex challenges with clean, efficient code.`;
 
@@ -19,12 +20,29 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Precisium AI",
+    image: project5, 
+    description:
+      "Precisium AI is a smart PDF summarizer that leverages GenAI to convert long PDF documents into concise, structured summaries. Built for speed and clarity, it supports secure uploads, personalized summaries, and a sleek modern UI.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "LangChain",
+      "Gemini API",
+      "uploadthing",
+      "Clerk Auth",
+      "NeonDB"
+    ],
+    link: "https://precisium-ai.vercel.app/"
+  },
+  {
     title: "Loquax",
     image: project1,
     description:
       "Loquax is a real-time chatting web application designed with a clean UI and smooth user experience. It supports instant messaging, active user tracking, and dynamic chat rooms.",
-    technologies: ["React.js", "Node.js", "MongoDB" , "Socket.io"],
-    link : "https://loquax.onrender.com/signup"
+    technologies: ["React.js", "Node.js", "MongoDB", "Socket.io"],
+    link: "https://loquax.onrender.com/signup"
   },
   {
     title: "Bite Rush",
@@ -32,7 +50,7 @@ export const PROJECTS = [
     description:
       "Bite Rush is a food delivery web app built with React and Redux. It features real-time restaurant listings, dynamic menus, and a smooth cart experience—designed for speed and usability.",
     technologies: ["React.js", "Redux Toolkit", "Tailwind CSS"],
-    link : "https://bite-rush.onrender.com/"
+    link: "https://bite-rush.onrender.com/"
   },
   {
     title: "Portfolio Website",
@@ -40,7 +58,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React.js", "Tailwind CSS", "Framer"],
-    link : "/#"
+    link: "/#"
   },
   {
     title: "Deep Bot",
@@ -48,7 +66,7 @@ export const PROJECTS = [
     description:
       "Deep Bot is an AI-powered chatbot built with Gemini API, enabling smart, human-like conversations. Designed for speed and accuracy, it delivers seamless user interactions across various queries.",
     technologies: ["HTML", "CSS", "JavaScript", "Gemini Api"],
-    link : "https://kaushalkrsna1602.github.io/Deep-Bot-A-Gemini-Chat-bot/"
+    link: "https://kaushalkrsna1602.github.io/Deep-Bot-A-Gemini-Chat-bot/"
   },
 ];
 

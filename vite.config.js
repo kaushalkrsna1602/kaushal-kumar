@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
+    assetsInclude: ['**/*.PNG'], // Add this
 })

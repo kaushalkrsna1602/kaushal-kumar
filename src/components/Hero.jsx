@@ -54,7 +54,7 @@ const Hero = () => {
                 </motion.p>
                 <motion.a 
                 variants={childVariants}
-                href='https://storage.googleapis.com/acciojob-user-content/resumes/f7e8a5c9-7c1b-48d8-b185-10b278c18668-Kaushal%20Kumar%20MERN.pdf'
+                href='https://storage.googleapis.com/acciojob-user-content/resumes/f7e8a5c9-7c1b-48d8-b185-10b278c18668-Kaushal%20Kumar%20Resume.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     download
