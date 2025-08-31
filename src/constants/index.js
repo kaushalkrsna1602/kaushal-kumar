@@ -11,6 +11,13 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "June 2025 - Present",
+    role: "Founding Software Engineer I ",
+    company: "Bizora AI",
+    description: `As a founding software engineer, I was instrumental in scaling Bizora's application from a single-page prototype to a multi-page SaaS platform. I engineered core features, including a real-time file upload system and a state-managed user vault, significantly improving feature coverage, reliability, and usability`,
+    technologies: ["React", "Redux", "Material Ui", "API-integration"],
+  },
+  {
     year: "April 2023 - July 2024",
     role: "Senior Video Editor",
     company: "Ekcel Academy",
