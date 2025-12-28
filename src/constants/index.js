@@ -3,83 +3,143 @@ import project2 from "../assets/projects/BiteRush.svg";
 import project3 from "../assets/logo.png";
 import project4 from "../assets/projects/chat-bot.png";
 import project5 from "../assets/projects/project5.PNG";
+import veenoImg from "../assets/projects/veeno png.png";
 
-export const HERO_CONTENT = `I’m a Full-Stack Developer focused on building high-performance, scalable web applications. With hands-on experience in React, Redux, Next.js, Node.js, Express, MongoDB, JavaScript, and TypeScript. I also work with AI tools like the Gemini API and LangChain to build intelligent, user-focused features.I thrive on solving real-world problems with clean, efficient code.
-Known for taking ownership and getting things done—thrives on building and learning through doing.`;
+export const HERO_CONTENT = `I'm a Founding Software Engineer focused on building high-performance, scalable web applications using serverless architecture. With hands-on experience in React, Redux Toolkit, Next.js, FastAPI, AWS Lambda, DynamoDB, and TypeScript. I specialize in real-time systems, OAuth 2.0 integrations, and AI-powered features using the Gemini Live API and LangChain. I thrive on solving real-world problems with clean, efficient code—known for taking ownership and getting things done.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With hands-on experience in modern technologies including React, Next.js, FastAPI, AWS Lambda, DynamoDB, PostgreSQL, and MongoDB. My journey in web development is driven by a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
 
 export const EXPERIENCES = [
   {
     year: "June 2025 - Present",
-    role: "Founding Software Engineer I ",
-    company: "Bizora AI",
-    description: `As a founding software engineer, I was instrumental in scaling Bizora's application from a single-page prototype to a multi-page SaaS platform. I engineered core features, including a real-time file upload system and a state-managed user vault, significantly improving feature coverage, reliability, and usability`,
-    technologies: ["React", "Redux", "Material Ui", "API-integration"],
+    role: "Founding Software Engineer",
+    company: "Bizora",
+    description: [
+      "Architected a secure OAuth 2.0 microservice using Python, AWS Lambda, and API Gateway, implementing RFC 7636 (PKCE) to eliminate security vulnerabilities",
+      "Designed scalable Terraform infrastructure with DynamoDB composite keys and GSI to optimize query patterns",
+      "Established multi-stage GitHub Actions pipelines enforcing 70% code coverage with Pytest",
+      "Built the core 'Vault' file management system using React and Redux Toolkit with optimistic updates, improving user perceived performance by 40%",
+      "Integrated REST + WebSocket APIs for real-time file uploads with 95% upload reliability"
+    ],
+    technologies: ["Python", "AWS Lambda", "Terraform", "React", "Redux Toolkit", "DynamoDB", "GitHub Actions"],
   },
   {
     year: "April 2023 - July 2024",
-    role: "Senior Video Editor",
+    role: "Senior Video Editor & Creative Lead",
     company: "Ekcel Academy",
-    description: `Led a creative team of video editors, designers, and content writers at Ekcel Academy, producing 400+ high-retention videos including shorts, reels, and marketing content. Played a key role in boosting audience engagement, contributing to a 30% increase in viewer retention through strategic editing and compelling visual storytelling.`,
-    technologies: ["Premiere Pro", "After Effects", "Gen AI"],
+    description: [
+      "Led a cross-functional creative team to scale content output, implementing agile-like workflows that increased video production delivery by 30%",
+      "Produced 400+ high-retention videos including shorts, reels, and marketing content while maintaining high viewer retention"
+    ],
+    technologies: ["Premiere Pro", "After Effects", "Gen AI", "Agile Workflows"],
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "Precisium AI",
-    image: project5, 
-    description:
-      "Precisium AI is a smart PDF summarizer that leverages GenAI to convert long PDF documents into concise, structured summaries. Built for speed and clarity, it supports secure uploads, personalized summaries, and a sleek modern UI.",
+    title: "Veenoe - AI Edtech Platform",
+    image: veenoImg,
+    description: [
+      "Built a real-time voice AI platform enabling interactive oral exams using Google Gemini Live API",
+      "Developed custom WebSocket SDK with exponential backoff for reliable connections",
+      "Created production-ready FastAPI backend with dependency injection and IP-based rate limiting",
+      "Implemented AudioWorklet and Web Audio API for jitter-free 16kHz microphone capture",
+      "Built 13+ headless React components with ownership-based authorization and Clerk authentication"
+    ],
     technologies: [
       "Next.js",
-      "React",
-      "Tailwind CSS",
+      "FastAPI",
+      "Gemini Live API",
+      "WebSocket",
+      "Zustand",
+      "TanStack Query",
+      "Clerk Auth"
+    ],
+    link: "https://veenoe.com/",
+    resumeLink: "https://storage.googleapis.com/acciojob-user-content/resumes/f7e8a5c9-7c1b-48d8-b185-10b278c18668-Kaushal%20Kumar%20Resume.pdf"
+  },
+  {
+    title: "Precisium AI",
+    image: project5,
+    description: [
+      "Built an AI-driven SaaS platform using LangChain to generate precise PDF summaries",
+      "Optimized summarization pipeline, reducing processing time for 10-page documents to under 5 seconds",
+      "Integrated secure backend pipeline with file uploads via UploadThing and payments via Stripe",
+      "Implemented PostgreSQL for data persistence and Clerk for secure authentication"
+    ],
+    technologies: [
+      "Next.js",
       "LangChain",
       "Gemini API",
-      "uploadthing",
+      "Stripe",
+      "PostgreSQL",
       "Clerk Auth",
-      "NeonDB"
+      "UploadThing"
     ],
     link: "https://precisium-ai.vercel.app/"
   },
   {
     title: "Loquax",
     image: project1,
-    description:
-      "Loquax is a real-time chatting web application designed with a clean UI and smooth user experience. It supports instant messaging, active user tracking, and dynamic chat rooms.",
+    description: [
+      "Developed a real-time messaging platform supporting 100+ concurrent users with sub-200ms latency",
+      "Implemented JWT authentication and Socket.io for reliable bidirectional communication",
+      "Designed responsive UI with clean design and smooth user experience",
+      "Built dynamic chat rooms with active user tracking and instant messaging capabilities"
+    ],
     technologies: ["React.js", "Node.js", "MongoDB", "Socket.io"],
     link: "https://loquax.onrender.com/signup"
   },
   {
     title: "Bite Rush",
     image: project2,
-    description:
-      "Bite Rush is a food delivery web app built with React and Redux. It features real-time restaurant listings, dynamic menus, and a smooth cart experience—designed for speed and usability.",
+    description: [
+      "Built a food delivery web app with React and Redux for state management",
+      "Implemented real-time restaurant listings with dynamic menu updates",
+      "Created smooth cart experience with optimized performance for speed and usability",
+      "Designed responsive interface using Tailwind CSS for cross-device compatibility"
+    ],
     technologies: ["React.js", "Redux Toolkit", "Tailwind CSS"],
     link: "https://bite-rush.onrender.com/"
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React.js", "Tailwind CSS", "Framer"],
-    link: "/#"
-  },
-  {
     title: "Deep Bot",
     image: project4,
-    description:
-      "Deep Bot is an AI-powered chatbot built with Gemini API, enabling smart, human-like conversations. Designed for speed and accuracy, it delivers seamless user interactions across various queries.",
-    technologies: ["HTML", "CSS", "JavaScript", "Gemini Api"],
+    description: [
+      "Developed an AI-powered chatbot using Gemini API for intelligent conversations",
+      "Implemented natural language processing for human-like interactions",
+      "Optimized for speed and accuracy across various query types",
+      "Built with vanilla JavaScript for lightweight, fast-loading experience"
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "Gemini API"],
     link: "https://kaushalkrsna1602.github.io/Deep-Bot-A-Gemini-Chat-bot/"
   },
 ];
 
+export const CERTIFICATIONS = [
+  {
+    title: "Gen AI Certification Bootcamp",
+    provider: "Euron",
+    skills: ["RAG", "LangChain", "LangGraph", "N8N", "Pinecone", "CI/CD", "Python"]
+  },
+  {
+    title: "Full Stack Web Development",
+    provider: "AccioJob",
+    skills: ["Data Structures & Algorithms", "System Design", "MERN Stack"]
+  }
+];
+
+export const EDUCATION = {
+  degree: "Bachelor of Computer Applications (BCA)",
+  university: "Chandigarh University",
+  period: "2022 - 2025",
+  cgpa: "7.0+",
+  coursework: ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Computer Networks"]
+};
+
 export const CONTACT = {
-  address: "New Delhi,  Delhi 110042",
-  phoneNo: "+91 7461 8104 64 ",
+  address: "New Delhi, Delhi 110042",
+  phoneNo: "+91 7461 8104 64",
   email: "kaushal.kr.kr@gmail.com",
+  leetcode: "https://leetcode.com/u/kaushalkrsna/",
 };

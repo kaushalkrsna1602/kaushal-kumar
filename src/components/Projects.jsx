@@ -48,7 +48,11 @@ const Projects = () => {
                 {project.title}
               </a>
 
-              <p className="mb-4 text-stone-400">{project.description}</p>
+              <ul className="mb-4 text-stone-400 list-disc list-inside space-y-1">
+                {project.description.map((point, pointIndex) => (
+                  <li key={pointIndex}>{point}</li>
+                ))}
+              </ul>
 
               {/* Tech stack chips with wrapping */}
               <div className="flex flex-wrap gap-2">
