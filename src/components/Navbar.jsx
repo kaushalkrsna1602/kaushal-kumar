@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../assets/logo.png"
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 import { SiLeetcode } from 'react-icons/si'
 
@@ -31,12 +31,6 @@ const Navbar = () => {
                     aria-label='LeetCode'
                     className='text-[#FFA116] hover:text-[#FFB84D] transition-colors'>
                     <SiLeetcode />
-                </a>
-                <a href='https://www.instagram.com/kaushalkrsna/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    aria-label='Instagram'>
-                    <FaInstagram />
                 </a>
                 <a href='https://x.com/Kaushalkrsna'
                     target='_blank'
