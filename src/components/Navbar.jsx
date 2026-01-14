@@ -13,7 +13,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-                <a href='https://www.linkedin.com/in/kaushal-kumar-00a015232/'
+                <a href='https://www.linkedin.com/in/kaushalkrsna/'
                     target='_blank'
                     rel='noopener noreferrer'
                     aria-label='LinkedIn'>
@@ -25,7 +25,7 @@ const Navbar = () => {
                     aria-label='GitHub'>
                     <FaGithub />
                 </a>
-                <a href='https://leetcode.com/u/kaushalkrsna1602/'
+                <a href='https://leetcode.com/u/kaushalkrsna/'
                     target='_blank'
                     rel='noopener noreferrer'
                     aria-label='LeetCode'
