@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaNodeJs, FaAws, FaPython } from 'react-icons/fa6'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
-import { SiMongodb, SiNextdotjs, SiTypescript, SiPostgresql, SiTerraform, SiFastapi } from 'react-icons/si'
+import { SiMongodb, SiNextdotjs, SiTypescript, SiPostgresql, SiTerraform, SiFastapi, SiAuth0 } from 'react-icons/si'
 import { TbBrandJavascript } from 'react-icons/tb'
 import { motion } from 'framer-motion'
 
@@ -94,6 +94,15 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     className='p-4'>
                     <FaNodeJs className='text-7xl text-green-500' />
+                </motion.div>
+
+                {/* Authentication */}
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(3.5)}
+                    className='p-4'>
+                    <SiAuth0 className='text-7xl text-[#EB5424]' />
                 </motion.div>
 
                 {/* Infrastructure */}
