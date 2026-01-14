@@ -4,6 +4,7 @@ import project3 from "../assets/logo.png";
 import project4 from "../assets/projects/chat-bot.png";
 import project5 from "../assets/projects/project5.PNG";
 import veenoImg from "../assets/projects/veeno png.png";
+import farmAuraImg from "../assets/projects/farmaura.svg";
 
 export const HERO_CONTENT = `I'm a Founding Software Engineer focused on building high-performance, scalable web applications using serverless architecture. With hands-on experience in React, Redux Toolkit, Next.js, FastAPI, AWS Lambda, DynamoDB, and TypeScript. I specialize in real-time systems, OAuth 2.0 integrations, and AI-powered features using the Gemini Live API and LangChain. I thrive on solving real-world problems with clean, efficient code—known for taking ownership and getting things done.`;
 
@@ -57,6 +58,24 @@ export const PROJECTS = [
     ],
     link: "https://veenoe.com/",
     resumeLink: "https://storage.googleapis.com/acciojob-user-content/resumes/f7e8a5c9-7c1b-48d8-b185-10b278c18668-Kaushal%20Kumar%20Resume.pdf"
+  },
+  {
+    title: "FarmAura - Social Gamification Platform",
+    image: farmAuraImg,
+    description: [
+      "Built a social gamification platform enabling users to create tribes and reward positive actions",
+      "Implemented point-based reward system for recognizing good vibes and helpful actions",
+      "Developed tribe management system for organizing groups with friends, coworkers, or family",
+      "Created redemption marketplace where users can exchange points for real-life rewards and perks",
+      "Designed intuitive UI for seamless social interactions and reward tracking"
+    ],
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Authentication"
+    ],
+    link: "https://farmaura.vercel.app/"
   },
   {
     title: "Precisium AI",
